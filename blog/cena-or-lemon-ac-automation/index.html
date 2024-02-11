@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head><meta name="generator" content="Hexo 3.9.0">
+  <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   <meta name="description" content="A Blog About Information and Technology">
@@ -16,7 +16,9 @@
   <link href="/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="/css/plugins/nprogress/nprogress.min.css" rel="stylesheet">
   <link href="/css/plugins/highlight.js/styles/tomorrow.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  
+<link rel="stylesheet" href="/css/style.css">
+
   
   <script src="/js/jquery/jquery.min.js"></script>
   <script src="/js/geopattern/geopattern.min.js"></script>
@@ -52,17 +54,20 @@
 
   
 
-    <script src="/js/local-search.js"></script>
+    
+<script src="/js/local-search.js"></script>
+
 
   <script src="/js/comment/av-min.js"></script>
   <!-- <script src='//unpkg.com/valine/dist/Valine.min.js'></script> -->
   <!-- <script src="//cdn.jsdelivr.net/npm/@waline/client"></script> -->
   <!-- <script src="/js/comment/Waline.min.js"></script> -->
   <script src="/js/walinev2/waline.js"></script>
-  <link href="/js/walinev2/waline.css" rel="stylesheet">
+  <link href="/js/walinev2/waline.css" rel='stylesheet' />
+<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="我有昕想法 | Peter_Matthew的博客" type="application/atom+xml">
 </head>
 <div class="wechat-share">
-  <img src="/css/images/logo.png">
+  <img src="/css/images/logo.png" />
 </div>
 
   <body>
@@ -106,13 +111,13 @@
       
         <li class="list-item">
           
-            <a href="https://note.gh.zhangkai.xin/" class="item-link">📕笔记🔗</a>
+            <a target="_blank" rel="noopener" href="https://note.gh.zhangkai.xin/" class="item-link">📕笔记🔗</a>
           
         </li>
       
         <li class="list-item">
           
-            <a href="https://wiki.zhangkai.xin/" class="item-link">📖Wiki🔗</a>
+            <a target="_blank" rel="noopener" href="https://wiki.zhangkai.xin/" class="item-link">📖Wiki🔗</a>
           
         </li>
       
@@ -164,13 +169,13 @@
         
           <li class="menu-item">
             
-              <a href="https://note.gh.zhangkai.xin/" class="menu-link">📕笔记🔗</a>
+              <a target="_blank" rel="noopener" href="https://note.gh.zhangkai.xin/" class="menu-link">📕笔记🔗</a>
             
           </li>
         
           <li class="menu-item">
             
-              <a href="https://wiki.zhangkai.xin/" class="menu-link">📖Wiki🔗</a>
+              <a target="_blank" rel="noopener" href="https://wiki.zhangkai.xin/" class="menu-link">📖Wiki🔗</a>
             
           </li>
         
@@ -214,19 +219,18 @@
   <!-- Article START -->
   <article class="post-article">
   
-    <i class="fa fa-clock-o">本文共<span class="post-count">427</span>字，大约需要阅读<span class="post-count">2</span>分钟。</i>
+    <i class="fa fa-clock-o">本文共<span class="post-count">459</span>字，大约需要阅读<span class="post-count">2</span>分钟。</i>
   
-    <section class="markdown-content"><link rel="stylesheet" type="text/css" href="/css/hexo-tag-hint/hint.min.css"><p>C++:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">char</span> s[<span class="number">100001</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b,c,id,n,m,l;</span><br><span class="line">    freopen(<span class="string">"**.in"</span>,<span class="string">"r"</span>,<span class="built_in">stdin</span>);</span><br><span class="line">    freopen(<span class="string">"**.out"</span>,<span class="string">"w"</span>,<span class="built_in">stdout</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;n,&amp;m,&amp;l);</span><br><span class="line">    fclose(<span class="built_in">stdin</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">10</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">sprintf</span>(s,<span class="string">"..\\..\\data\\**\\**%d.in"</span>,i);</span><br><span class="line">        freopen(s,<span class="string">"r"</span>,<span class="built_in">stdin</span>);</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">        <span class="keyword">if</span>(a==n&amp;&amp;b==m&amp;&amp;c==l)</span><br><span class="line">        &#123;</span><br><span class="line">            id=i;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        fclose(<span class="built_in">stdin</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">sprintf</span>(s,<span class="string">"..\\..\\data\\**\\**%d.out"</span>,id);</span><br><span class="line">    freopen(s,<span class="string">"r"</span>,<span class="built_in">stdin</span>);</span><br><span class="line">    <span class="built_in">string</span> ans;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;ans;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;ans&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+    <section class="markdown-content"><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><p>C++:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">char</span> s[<span class="number">100001</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b,c,id,n,m,l;</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;**.in&quot;</span>,<span class="string">&quot;r&quot;</span>,stdin);</span><br><span class="line">    <span class="built_in">freopen</span>(<span class="string">&quot;**.out&quot;</span>,<span class="string">&quot;w&quot;</span>,stdout);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d&quot;</span>,&amp;n,&amp;m,&amp;l);</span><br><span class="line">    <span class="built_in">fclose</span>(stdin);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">10</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">sprintf</span>(s,<span class="string">&quot;..\\..\\data\\**\\**%d.in&quot;</span>,i);</span><br><span class="line">        <span class="built_in">freopen</span>(s,<span class="string">&quot;r&quot;</span>,stdin);</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">&quot;%d%d%d&quot;</span>,&amp;a,&amp;b,&amp;c);</span><br><span class="line">        <span class="keyword">if</span>(a==n&amp;&amp;b==m&amp;&amp;c==l)</span><br><span class="line">        &#123;</span><br><span class="line">            id=i;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">fclose</span>(stdin);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">sprintf</span>(s,<span class="string">&quot;..\\..\\data\\**\\**%d.out&quot;</span>,id);</span><br><span class="line">    <span class="built_in">freopen</span>(s,<span class="string">&quot;r&quot;</span>,stdin);</span><br><span class="line">    string ans;</span><br><span class="line">    cin&gt;&gt;ans;</span><br><span class="line">    cout&lt;&lt;ans&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Pascal:</p>
-<figure class="highlight pascal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Program</span> Captain; </span><br><span class="line"><span class="keyword">Var</span> a,b,c,id,n,m,l,i:longint;<span class="comment">//搜索到想要的答案</span></span><br><span class="line">s:<span class="keyword">string</span>;<span class="comment">//用来保存打开输出答案的文件名这里写代码片这里写代码片  </span></span><br><span class="line">ans:ansistring;<span class="comment">//读入应该输出的答案</span></span><br><span class="line"><span class="keyword">Begin</span></span><br><span class="line">  Assign(input,<span class="string">'*****.in'</span>); Reset(input);</span><br><span class="line">  Assign(output,<span class="string">'*****.out'</span>);<span class="comment">//星号是题目名，out可以改成ans</span></span><br><span class="line">  Rewrite(output);</span><br><span class="line">  Readln(n,m,l);<span class="comment">//读入3个输出文件的前3个数字，可以酌情改成字符串，或者4个5个 </span></span><br><span class="line">  <span class="keyword">For</span> i:=<span class="number">1</span> <span class="keyword">to</span> <span class="number">10</span> <span class="keyword">do</span> <span class="keyword">begin</span><span class="comment">//1-10测试点，酌情改成0-9或  1-20，考试不知道是0-9还是1-10看人品        </span></span><br><span class="line">    Str(i,s);<span class="comment">//搜索输入数据</span></span><br><span class="line">    Assign(input,<span class="string">'..\\..\\data\\*****\\*****'</span>+s+<span class="string">'.in'</span>);</span><br><span class="line">    Reset(input);<span class="comment">//打开输入数据</span></span><br><span class="line">    Readln(a,b,c);<span class="comment">//开始读入输入数据进行校验    </span></span><br><span class="line">    <span class="keyword">If</span> (a=n)<span class="keyword">and</span>(b=m)<span class="keyword">and</span>(c=l) <span class="keyword">then</span> <span class="keyword">begin</span><span class="comment">//校验成功 </span></span><br><span class="line">      id:=i;<span class="comment">//保存地址      </span></span><br><span class="line">      <span class="keyword">Break</span>;<span class="comment">//跳出循环  </span></span><br><span class="line">    <span class="keyword">End</span>;        </span><br><span class="line">    Close(input);</span><br><span class="line">  <span class="keyword">End</span>; </span><br><span class="line">  Str(id,s);<span class="comment">//找到保存地址所在的输出数据</span></span><br><span class="line">  Assign(input,<span class="string">'..\\..\\data\\*****\\*****'</span>+s+<span class="string">'.out'</span>);</span><br><span class="line">  Reset(input);<span class="comment">//读入输出数据</span></span><br><span class="line">  Readln(ans);</span><br><span class="line">  Writeln(ans);<span class="comment">//复制输出数据并输出，成功得分</span></span><br><span class="line">Close(input);Close(output);<span class="comment">//关闭文件，结束</span></span><br><span class="line"><span class="keyword">End</span>.</span><br></pre></td></tr></table></figure>
+<figure class="highlight pascal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Program</span> Captain; </span><br><span class="line"><span class="keyword">Var</span> a,b,c,id,n,m,l,i:longint;<span class="comment">//搜索到想要的答案</span></span><br><span class="line">s:<span class="keyword">string</span>;<span class="comment">//用来保存打开输出答案的文件名这里写代码片这里写代码片  </span></span><br><span class="line">ans:ansistring;<span class="comment">//读入应该输出的答案</span></span><br><span class="line"><span class="keyword">Begin</span></span><br><span class="line">  Assign(input,<span class="string">&#x27;*****.in&#x27;</span>); Reset(input);</span><br><span class="line">  Assign(output,<span class="string">&#x27;*****.out&#x27;</span>);<span class="comment">//星号是题目名，out可以改成ans</span></span><br><span class="line">  Rewrite(output);</span><br><span class="line">  Readln(n,m,l);<span class="comment">//读入3个输出文件的前3个数字，可以酌情改成字符串，或者4个5个 </span></span><br><span class="line">  <span class="keyword">For</span> i:=<span class="number">1</span> <span class="keyword">to</span> <span class="number">10</span> <span class="keyword">do</span> <span class="keyword">begin</span><span class="comment">//1-10测试点，酌情改成0-9或  1-20，考试不知道是0-9还是1-10看人品        </span></span><br><span class="line">    Str(i,s);<span class="comment">//搜索输入数据</span></span><br><span class="line">    Assign(input,<span class="string">&#x27;..\\..\\data\\*****\\*****&#x27;</span>+s+<span class="string">&#x27;.in&#x27;</span>);</span><br><span class="line">    Reset(input);<span class="comment">//打开输入数据</span></span><br><span class="line">    Readln(a,b,c);<span class="comment">//开始读入输入数据进行校验    </span></span><br><span class="line">    <span class="keyword">If</span> (a=n)<span class="keyword">and</span>(b=m)<span class="keyword">and</span>(c=l) <span class="keyword">then</span> <span class="keyword">begin</span><span class="comment">//校验成功 </span></span><br><span class="line">      id:=i;<span class="comment">//保存地址      </span></span><br><span class="line">      <span class="keyword">Break</span>;<span class="comment">//跳出循环  </span></span><br><span class="line">    <span class="keyword">End</span>;        </span><br><span class="line">    Close(input);</span><br><span class="line">  <span class="keyword">End</span>; </span><br><span class="line">  Str(id,s);<span class="comment">//找到保存地址所在的输出数据</span></span><br><span class="line">  Assign(input,<span class="string">&#x27;..\\..\\data\\*****\\*****&#x27;</span>+s+<span class="string">&#x27;.out&#x27;</span>);</span><br><span class="line">  Reset(input);<span class="comment">//读入输出数据</span></span><br><span class="line">  Readln(ans);</span><br><span class="line">  Writeln(ans);<span class="comment">//复制输出数据并输出，成功得分</span></span><br><span class="line">Close(input);Close(output);<span class="comment">//关闭文件，结束</span></span><br><span class="line"><span class="keyword">End</span>.</span><br></pre></td></tr></table></figure>
 
 <hr>
 <blockquote>
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener"><img src="/pic/license/BY-NC-SA_80x15.png" alt="知识共享许可协议"></a></p>
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener"><img src="/pic/license/BY-NC-SA_88x31.png" alt="知识共享许可协议"></a></p>
-<p>本作品采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+<p><a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><img src="/pic/license/BY-NC-SA_80x15.png" alt="知识共享许可协议"></a></p>
+<p><a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><img src="/pic/license/BY-NC-SA_88x31.png" alt="知识共享许可协议"></a></p>
+<p>本作品采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
 </blockquote>
 </section>
     
@@ -241,7 +245,7 @@
         
           <span>标签:</span>
           
-  <a href="/tags/#科技" >
+  <a href="/tags#科技" >
     <span class="tag-code">科技</span>
   </a>
 
@@ -254,10 +258,10 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/blog/lgrb-tou-lan-li-qi-hong/">
+      <a class="nav-left" href="/blog/data-construction-and-beat-program/">
         <span class="nav-arrow">← </span>
         
-          【转载】C++中偷懒利器——宏
+          数据构造与对拍程序
         
       </a>
     
@@ -412,9 +416,9 @@
   <p class="copyright">
     博客非常自豪地使用了<a href="https://hexo.io" target="_blank"> Hexo </a>生成 | 主题是<a href="https://github.com/yanm1ng/hexo-theme-vexo" target="_blank"> Vexo </a>
     <br>
-    主题作者为<a href="https://github.com/yanm1ng"> yanm1ng </a> | 经过<a href="https://github.com/WilliamPeterMatthew"> WilliamPeterMatthew </a>修改
+    主题作者为<a target="_blank" rel="noopener" href="https://github.com/yanm1ng"> yanm1ng </a> | 经过<a target="_blank" rel="noopener" href="https://github.com/WilliamPeterMatthew"> WilliamPeterMatthew </a>修改
     <br>
-    使用 CC BY-NC-SA 4.0 许可 | &copy; 2018 - 2023 张开昕 版权所有
+    使用 CC BY-NC-SA 4.0 许可 | &copy; 2018 - 2024 张开昕 版权所有
     <br>
     <a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow"><img src="/pic/beian/icp备案.png" width="18" height="18"> 豫ICP备20022692号-1</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41030502000313" target="_blank" rel="noopener nofollow"><img src="/pic/beian/公安备案.png" width="18" height="18"> 豫公网安备 41030502000313号</a>
     <br>
@@ -464,6 +468,8 @@
 
 <!-- Baidu Tongji -->
 
+
 <script src="/js/script.js"></script>
+
   </body>
 </html>
